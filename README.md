@@ -1,6 +1,8 @@
 # Challange Alura - Encriptador de texto
 La aplicaicón fue desarrollada con la finalidad de poner en prácticas lo curso de Lógica de programación con JavaScript, HTML, CSS, Git y Github
 
+Desarrollado por Adalidt Ancachi Limachi
+
 # Tecnologías utilizadas
 * JavaScript
 * HTML
