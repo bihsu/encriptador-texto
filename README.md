@@ -12,4 +12,4 @@ La aplicaicón fue desarrollada con la finalidad de poner en prácticas lo curso
 * Dar doble click en el archivo index.html para que se abra la página
 
 # Pruebe la página
-Para probar la página ingrese al siguiente enlace [h[ttps://example.com](https://bihsu.github.io/encriptador-texto)]([https://example.com](https://bihsu.github.io/encriptador-texto/))
+Para probar la página ingrese al siguiente enlace [https://bihsu.github.io/encriptador-texto/](https://bihsu.github.io/encriptador-texto/)
