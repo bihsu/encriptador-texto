@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto - Alura ONE</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bi--exclamation-circle-fill.css">
+
+</head>
+<body>
+    <header class="cabecera">
+        <h1 class="cabecera__titulo">Encriptador/Desencriptador de texto</h1>
+        <p class="cabecera__parrafo">Desafío de lógica de programación en <a class="cabecera__parrafo_link" href="https://www.aluracursos.com/" target="_blank">Alura Latam</a> </p>
+    </header>
+    <main class="principal">
+        <section class="principal__contenido">
+            <img class="principal__contenido__imagen" src="./images/alura.png" alt="Logo de alura">
+            <div class="principal__contenido__texto">
+                <textarea class="principal__contenido__texto__input" name="texto" id="texto" placeholder="Ingrese el texto aquí"></textarea>
+                <p class="principal__contenido__texto__parrafo"><span class="bi--exclamation-circle-fill"></span> Solo letras minúsculas y sin acento</p>
+                <div class="principal__botones">
+                    <button class="principal__contenido__texto__boton__encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="principal__contenido__texto__boton__desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <!--<div class="encriptado">-->
+            <div class="encriptado__resultado" id="resultado">
+                <textarea class="principal__encriptado__resultado__texto" name="texto_encriptado" id="encriptado" placeholder="Texto encriptado"></textarea>
+            <button class="principal__encriptado__resultado__boton" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="encriptado__vacio" id="vacio">
+                <img class="encriptado__vacio__imagen" src="./images/imagen.png" alt="Imagen de muñeco">
+                <h2 class="encriptado__vacio__titulo">Ningun texto fue encontrado</h2>
+                <p class="encriptado__vacio__parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        <!--</div>-->
+    </main>
+    <footer class="rodapie">
+        <p class="rodapie__texto">Desarrollado por <a class="rodapie__texto__link"  href="https://github.com/bihsu" target="_blank">Adalidt Ancachi Limachi</a> </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
