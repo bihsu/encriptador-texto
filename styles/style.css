@@ -227,6 +227,10 @@ body{
 }
 
 @media (max-width: 768px){
+
+    .cabecera__titulo{
+        font-size: 1.5rem;
+    }
     .principal{
         display: flex;
         flex-direction: column;
